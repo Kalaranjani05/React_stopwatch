@@ -1,12 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import Stopwatch from './watch.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import App from "./App.jsx";
+// import "./index.css";
+import Stopwatch from "./watch.jsx";
+import { CRUD } from "./Todo.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <App1 /> */}
     <Stopwatch/>
-  </React.StrictMode>,
-)
+    <CRUD />
+  </React.StrictMode>
+);

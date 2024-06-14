@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./watch.css";
 
 const Stopwatch = () => {
   const [time, setTime] = useState(0); 
